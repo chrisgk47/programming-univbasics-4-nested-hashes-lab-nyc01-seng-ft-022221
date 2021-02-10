@@ -77,7 +77,7 @@ def adding_matz
         :languages => ["LISP", "C"]
       }
     }
-    
+
 end
 
 def changing_alan
@@ -101,6 +101,7 @@ def changing_alan
     }
 
 end
+  programmer_hash[:alan_kay][:known_for] = ["GUI"]
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
