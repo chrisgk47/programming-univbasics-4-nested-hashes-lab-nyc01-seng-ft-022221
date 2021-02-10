@@ -101,7 +101,7 @@ def changing_alan
     }
 
 end
-  programmer_hash[:alan_kay][:known_for] = ["GUI"]
+  programmer_hash[:alan_kay][:known_for][0] = ["GUI"]
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
